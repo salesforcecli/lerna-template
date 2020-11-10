@@ -3,10 +3,8 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "es6",
-    "lib": [
-      "es6",
-      "dom"
-    ],
+    "rootDir": "src",
+    "lib": ["es6", "dom"],
     "sourceMap": true,
     "declaration": true,
     "moduleResolution": "node",

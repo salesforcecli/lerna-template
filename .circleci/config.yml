@@ -16,8 +16,9 @@ workflows:
           node_version: latest
       - release-management/test-package:
           name: node-12
-      - release-management/release-package:
-          sign: true
+      - release-management/release-lerna-packages:
+          sign: packages/plugin-template
+          github-release: true
           requires:
             - node-latest
           filters:

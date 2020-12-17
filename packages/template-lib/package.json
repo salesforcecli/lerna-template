@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A template library that lives in a lerna project",
   "author": "Salesforce",
-  "homepage": "https://github.com/salesforcecli/lerna-template/tree/master/packages/template-lib#readme",
+  "homepage": "https://github.com/salesforcecli/lerna-template/tree/main/packages/template-lib#readme",
   "license": "BSD-3-Clause",
   "files": [
     "/lib",

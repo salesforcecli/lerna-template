@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A template plugin that lives in a lerna project",
   "author": "Salesforce",
-  "homepage": "https://github.com/salesforcecli/lerna-template/tree/master/packages/plugin-template#readme",
+  "homepage": "https://github.com/salesforcecli/lerna-template/tree/main/packages/plugin-template#readme",
   "license": "BSD-3-Clause",
   "oclif": {
     "commands": "./lib/commands",

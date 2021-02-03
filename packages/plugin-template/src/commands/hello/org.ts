@@ -55,7 +55,7 @@ export default class Org extends SfdxCommand {
   protected static requiresProject = false;
 
   public async run(): Promise<AnyJson> {
-    const name: string = this.flags.name || 'world';
+    const name = (this.flags.name as string) || 'world';
     const helloOrg = await HelloOrg.create({ org: this.org, username: name });
     const msg = await helloOrg.getHelloMessage();
     this.ux.log(msg);

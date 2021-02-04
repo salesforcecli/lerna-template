@@ -45,8 +45,10 @@
     "codecov": "codecov --disable=gcov"
   },
   "devDependencies": {
+    "@oclif/plugin-command-snapshot": "^2.0.0",
     "@salesforce/dev-config": "^2.0.0",
     "@salesforce/dev-scripts": "^0.7.0",
+    "@salesforce/plugin-command-reference": "^1.3.0",
     "@salesforce/prettier-config": "^0.0.1",
     "@salesforce/ts-sinon": "^1.2.3",
     "@typescript-eslint/eslint-plugin": "^4.14.1",
@@ -62,6 +64,7 @@
     "eslint-plugin-jsdoc": "^31.6.0",
     "eslint-plugin-prettier": "^3.1.3",
     "husky": "^4.2.5",
+    "lerna": "^3.22.1",
     "mocha": "^8.2.1",
     "nyc": "^15.1.0",
     "prettier": "^2.0.5",

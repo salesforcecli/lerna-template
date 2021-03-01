@@ -1508,18 +1508,18 @@
   integrity sha512-ND9JF3yAZQMIK51uC8RHN5w7NYLivTlcTaH2Udw51oyKlzeWUTYwtsNe534t+zPBSo98+mVJwk53WwEsEUe8iw==
 
 "@salesforce/ts-sinon@^1.2.3":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@salesforce/ts-sinon/-/ts-sinon-1.3.0.tgz#f2fa4c90c2eb55d0ef86ae77def70812dad09958"
-  integrity sha512-8mfwEUlmGoTe2UUTvUcJ07PN6Q6N9huNGoLpN2ApduDE5ZFwtBNBFrj5Ud4XjvcPjHLNfIjxH/2HAfXgDRjSkQ==
+  version "1.3.5"
+  resolved "https://registry.yarnpkg.com/@salesforce/ts-sinon/-/ts-sinon-1.3.5.tgz#23ed0d956657bf71aec413d0c0ff79b7666a7ad7"
+  integrity sha512-Zp92SW5IrxAman3G61jhxDiJX+SrvYtfiNKhXi/nGKNk5Utbq0O2KfbjPomqk4vVvhUheZpnHUdN/y/XaxRsoA==
   dependencies:
-    "@salesforce/ts-types" "^1.5.0"
+    "@salesforce/ts-types" "^1.5.5"
     sinon "5.1.1"
     tslib "^1.10.0"
 
-"@salesforce/ts-types@^1.0.0", "@salesforce/ts-types@^1.2.0", "@salesforce/ts-types@^1.4.3", "@salesforce/ts-types@^1.5.0":
-  version "1.5.0"
-  resolved "https://registry.npmjs.org/@salesforce/ts-types/-/ts-types-1.5.0.tgz#e2baaca088f30a3f9d10127eb789a12abad44958"
-  integrity sha512-fJsVXSJ0s8voDNM7TYulPkiRDdR1bC/rE2hsY/+2q0DDa57UAeql34tEdaBs84GGbe/VGCVbiazkLDJW/bX7KQ==
+"@salesforce/ts-types@^1.0.0", "@salesforce/ts-types@^1.2.0", "@salesforce/ts-types@^1.4.3", "@salesforce/ts-types@^1.5.0", "@salesforce/ts-types@^1.5.5":
+  version "1.5.5"
+  resolved "https://registry.yarnpkg.com/@salesforce/ts-types/-/ts-types-1.5.5.tgz#cf6d0fe12a8ba48d79b57f63c54b5592c312e0ba"
+  integrity sha512-d4YdsA3MBTJcC6ZdqHe2+yv7MWKsoYmgjTlc56SOy8sROrQ9RjJYaUnj1h1Zi1aWGgkGaNCCAOBomcrhMa4crw==
   dependencies:
     tslib "^1.10.0"
 
@@ -1697,16 +1697,6 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
-"@typescript-eslint/experimental-utils@2.34.0":
-  version "2.34.0"
-  resolved "https://registry.npmjs.org/@typescript-eslint/experimental-utils/-/experimental-utils-2.34.0.tgz#d3524b644cdb40eebceca67f8cf3e4cc9c8f980f"
-  integrity sha512-eS6FTkq+wuMJ+sgtuNTtcqavWXqsflWcfBnlYhg/nS4aZ1leewkXGbvBhaapn1q6qf4M71bsR1tez5JTRMuqwA==
-  dependencies:
-    "@types/json-schema" "^7.0.3"
-    "@typescript-eslint/typescript-estree" "2.34.0"
-    eslint-scope "^5.0.0"
-    eslint-utils "^2.0.0"
-
 "@typescript-eslint/experimental-utils@4.14.2":
   version "4.14.2"
   resolved "https://registry.npmjs.org/@typescript-eslint/experimental-utils/-/experimental-utils-4.14.2.tgz#9df35049d1d36b6cbaba534d703648b9e1f05cbb"
@@ -1741,20 +1731,6 @@
   version "4.14.2"
   resolved "https://registry.npmjs.org/@typescript-eslint/types/-/types-4.14.2.tgz#d96da62be22dc9dc6a06647f3633815350fb3174"
   integrity sha512-LltxawRW6wXy4Gck6ZKlBD05tCHQUj4KLn4iR69IyRiDHX3d3NCAhO+ix5OR2Q+q9bjCrHE/HKt+riZkd1At8Q==
-
-"@typescript-eslint/typescript-estree@2.34.0":
-  version "2.34.0"
-  resolved "https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-2.34.0.tgz#14aeb6353b39ef0732cc7f1b8285294937cf37d5"
-  integrity sha512-OMAr+nJWKdlVM9LOqCqh3pQQPwxHAN7Du8DR6dmwCrAmxtiXQnhHJ6tBNtf+cggqfo51SG/FCwnKhXCIM7hnVg==
-  dependencies:
-    debug "^4.1.1"
-    eslint-visitor-keys "^1.1.0"
-    glob "^7.1.6"
-
-    is-glob "^4.0.1"
-    lodash "^4.17.15"
-    semver "^7.3.2"
-    tsutils "^3.17.1"
 
 "@typescript-eslint/typescript-estree@4.14.2":
   version "4.14.2"

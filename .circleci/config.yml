@@ -15,14 +15,11 @@ workflows:
       - release-management/test-package:
           name: node-12
       - release-management/test-nut:
-          name: nuts-on-linux
+          name: nuts-on-<< matrix.os >>
           sfdx_version: latest
-          requires:
-            - node-latest
-      - release-management/test-nut:
-          name: nuts-on-windows
-          sfdx_version: latest
-          os: windows
+          matrix:
+            parameters:
+              os: [linux, windows]
           requires:
             - node-latest
       - release-management/release-lerna-packages:

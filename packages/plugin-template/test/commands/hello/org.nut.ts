@@ -13,12 +13,13 @@ describe('hello:org NUTs', () => {
   before(async () => {
     /**
      * for writing/testing NUTs locally it's convenient to set TESTKIT_HUB_USERNAME to a locally auth'd DevHub
-     * for remote testing (CI) the TESTKIT_AUTH_URL should be set (output of `sfdx force:org:display -u <DevHub> --verbose`)
+     * for remote testing (CI) the TESTKIT_AUTH_URL should be set to the sfdxAuthUrl, found
+     * in the the output of `sfdx force:org:display -u <DevHub> --verbose`
      */
     testSession = await TestSession.create({
       /**
        * the data from the setup commands can be accessed via testSession.setup array
-       * each setup command, if multiple, will be entries
+       * the result of each setup command will be an entry in that array
        */
       setupCommands: [
         'sfdx force:org:create -f config/project-scratch-def.json --setdefaultusername --wait 10 --durationdays 1',

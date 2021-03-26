@@ -14,6 +14,14 @@ workflows:
           node_version: latest
       - release-management/test-package:
           name: node-12
+      - release-management/test-nut:
+          name: nuts-on-<< matrix.os >>
+          sfdx_version: latest
+          matrix:
+            parameters:
+              os: [linux, windows]
+          requires:
+            - node-latest
       - release-management/release-lerna-packages:
           sign: packages/plugin-template
           github-release: true

@@ -19,7 +19,9 @@ workflows:
           sfdx_version: latest
           matrix:
             parameters:
-              os: [linux, windows]
+              os:
+                - linux
+                - windows
           requires:
             - node-latest
       - release-management/release-lerna-packages:

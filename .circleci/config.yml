@@ -33,12 +33,12 @@ workflows:
                 - linux
                 - windows
           requires:
-            - node-latest
+            - test-package
       - release-management/release-lerna-packages:
           sign: packages/plugin-template
           github-release: true
           requires:
-            - node-latest
+            - test-package
           filters:
             branches:
               only: main

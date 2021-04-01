@@ -10,23 +10,35 @@ workflows:
             branches:
               ignore: main
       - release-management/test-package:
-          name: node-latest
-          node_version: latest
-      - release-management/test-package:
-          name: node-12
+          matrix:
+            parameters:
+              os:
+                - linux
+                - windows
+              node_version:
+                - latest
+                - lts
+                - maintenance
+            exclude:
+              - os: windows
+                node_version: lts
+              - os: windows
+                node_version: maintenance
       - release-management/test-nut:
           name: nuts-on-<< matrix.os >>
           sfdx_version: latest
           matrix:
             parameters:
-              os: [linux, windows]
+              os:
+                - linux
+                - windows
           requires:
-            - node-latest
+            - release-management/test-package
       - release-management/release-lerna-packages:
           sign: packages/plugin-template
           github-release: true
           requires:
-            - node-latest
+            - release-management/test-package
           filters:
             branches:
               only: main

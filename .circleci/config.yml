@@ -70,14 +70,6 @@ workflows:
                 - windows
           requires:
             - release-management/test-package
-        release-management/release-package:
-          sign: true
-          github-release: true
-          requires:
-            - release-management/test-package
-          filters:
-            branches:
-              only: main
       - release-management/release-lerna-packages:
           sign: packages/plugin-template
           github-release: true

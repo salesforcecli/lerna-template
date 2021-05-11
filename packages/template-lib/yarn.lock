@@ -1973,13 +1973,6 @@ find-up@^4.0.0, find-up@^4.1.0:
     locate-path "^5.0.0"
     path-exists "^4.0.0"
 
-find-versions@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.npmjs.org/find-versions/-/find-versions-3.2.0.tgz#10297f98030a786829681690545ef659ed1d254e"
-  integrity sha512-P8WRou2S+oe222TOCHitLy8zj+SIsVJh52VP4lvXkaFVnOFFdoWv1H1Jjvel1aI6NCFOAaeAVm8qrI0odiLcww==
-  dependencies:
-    semver-regex "^2.0.0"
-
 find-versions@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/find-versions/-/find-versions-4.0.0.tgz#3c57e573bf97769b8cb8df16934b627915da4965"
@@ -2305,9 +2298,9 @@ highlight.js@^10.0.0:
   integrity sha512-yR5lWvNz7c85OhVAEAeFhVCc/GV4C30Fjzc/rCP0aCWzc1UUOPUk55dK/qdwTZHBvMZo+eZ2jpk62ndX/xMFlg==
 
 hosted-git-info@^2.1.4:
-  version "2.8.8"
-  resolved "https://registry.npmjs.org/hosted-git-info/-/hosted-git-info-2.8.8.tgz#7539bd4bc1e0e0a895815a2e0262420b12858488"
-  integrity sha512-f/wzC2QaWBs7t9IYqB4T3sR1xviIViXJRJTWBlx2Gf3g0Xi5vI7Yy4koXQ1c9OYDGHN9sBy1DQ2AB8fqZBWhUg==
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
+  integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 html-escaper@^2.0.0:
   version "2.0.2"
@@ -2333,7 +2326,7 @@ human-signals@^1.1.1:
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-1.1.1.tgz#c5b1cd14f50aeae09ab6c59fe63ba3395fe4dfa3"
   integrity sha512-SEQu7vl8KjNL2eoGBLF3+wAjpsNfA9XMlXAYj/3EdaNfAlxKthD1xjEQfGOUhllCGGJVNY34bRr6lPINhNjyZw==
 
-husky@^4.2.5, husky@^4.3.8:
+husky@^4.2.5:
   version "4.3.8"
   resolved "https://registry.yarnpkg.com/husky/-/husky-4.3.8.tgz#31144060be963fd6850e5cc8f019a1dfe194296d"
   integrity sha512-LCqqsB0PzJQ/AlCgfrfzRe3e3+NvmefAdKQhRYpxS4u6clblBoDdzzvHi8fmxKRzvMxPY/1WZWzomPZww0Anow==
@@ -2348,6 +2341,11 @@ husky@^4.2.5, husky@^4.3.8:
     please-upgrade-node "^3.2.0"
     slash "^3.0.0"
     which-pm-runs "^1.0.0"
+
+husky@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-6.0.0.tgz#810f11869adf51604c32ea577edbc377d7f9319e"
+  integrity sha512-SQS2gDTB7tBN486QSoKPKQItZw97BMOd+Kdb6ghfpBc0yXyzrddI0oDV5MkDAbuB4X2mO3/nj60TRMcYxwzZeQ==
 
 iconv-lite@^0.4.24:
   version "0.4.24"
@@ -3702,7 +3700,7 @@ pkg-dir@^2.0.0:
   dependencies:
     find-up "^2.1.0"
 
-pkg-dir@^4.1.0, pkg-dir@^4.2.0:
+pkg-dir@^4.1.0:
   version "4.2.0"
   resolved "https://registry.npmjs.org/pkg-dir/-/pkg-dir-4.2.0.tgz#f099133df7ede422e81d1d8448270eeb3e4261f3"
   integrity sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==
@@ -4132,11 +4130,6 @@ semver-compare@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/semver-compare/-/semver-compare-1.0.0.tgz#0dee216a1c941ab37e9efb1788f6afc5ff5537fc"
   integrity sha1-De4hahyUGrN+nvsXiPavxf9VN/w=
-
-semver-regex@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npmjs.org/semver-regex/-/semver-regex-2.0.0.tgz#a93c2c5844539a770233379107b38c7b4ac9d338"
-  integrity sha512-mUdIBBvdn0PLOeP3TEkMH7HHeUP3GjsXCwKarjv/kGmUFOYg1VqEemKhoQpWMu6X2I8kHeuVdGibLGkVK+/5Qw==
 
 semver-regex@^3.1.2:
   version "3.1.2"

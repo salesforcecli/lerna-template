@@ -1405,9 +1405,9 @@
     cli-ux "^4.9.3"
 
 "@salesforce/core@^2.13.0", "@salesforce/core@^2.16.3", "@salesforce/core@^2.2.0", "@salesforce/core@^2.20.3":
-  version "2.23.1"
-  resolved "https://registry.yarnpkg.com/@salesforce/core/-/core-2.23.1.tgz#0a489cfba0ba3318ad760f38587389404e79c2f2"
-  integrity sha512-qANGCrOxk1+BXIfniMLUfZcgCZmRid0k+jLSWcQsg5gziG79nwzntZs+AxqniyhiK00X1qmtKaA7H6n7gTD3qA==
+  version "2.23.2"
+  resolved "https://registry.yarnpkg.com/@salesforce/core/-/core-2.23.2.tgz#cdb02677c51562b496fe796a3bc69d68a23f3026"
+  integrity sha512-LTnl7ElWrIgIYqYWLWL9KUrCI4kCEKaQlglUEJWBDLSUM0rfW3EnChLMaXZTCkqGjYLbldfRh8GXMxyejpoSTw==
   dependencies:
     "@salesforce/bunyan" "^2.0.0"
     "@salesforce/kit" "^1.5.0"
@@ -4316,7 +4316,7 @@ humanize-ms@^1.2.1:
   dependencies:
     ms "^2.0.0"
 
-husky@^4.2.5, husky@^4.3.0:
+husky@^4.2.5, husky@^4.3.0, husky@^4.3.8:
   version "4.3.8"
   resolved "https://registry.yarnpkg.com/husky/-/husky-4.3.8.tgz#31144060be963fd6850e5cc8f019a1dfe194296d"
   integrity sha512-LCqqsB0PzJQ/AlCgfrfzRe3e3+NvmefAdKQhRYpxS4u6clblBoDdzzvHi8fmxKRzvMxPY/1WZWzomPZww0Anow==
@@ -4331,11 +4331,6 @@ husky@^4.2.5, husky@^4.3.0:
     please-upgrade-node "^3.2.0"
     slash "^3.0.0"
     which-pm-runs "^1.0.0"
-
-husky@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/husky/-/husky-6.0.0.tgz#810f11869adf51604c32ea577edbc377d7f9319e"
-  integrity sha512-SQS2gDTB7tBN486QSoKPKQItZw97BMOd+Kdb6ghfpBc0yXyzrddI0oDV5MkDAbuB4X2mO3/nj60TRMcYxwzZeQ==
 
 hyperlinker@^1.0.0:
   version "1.0.0"

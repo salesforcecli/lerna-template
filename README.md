@@ -10,12 +10,6 @@ Currently, we have the following packages:
 - Learn more in its [README](https://github.com/salesforcecli/data/blob/main/packages/plugin-template/README.md).
 - See the code at [packages/plugin-template](https://github.com/salesforcecli/data/blob/main/packages/plugin-template).
 
-## [@salesforce/data](https://www.npmjs.com/package/@salesforce/template-lib) - Salesforce template library
-
-- [![NPM](https://img.shields.io/npm/v/@salesforce/template-lib.svg)](https://www.npmjs.com/package/@salesforce/template-lib)
-- Learn more in its [README](https://github.com/salesforcecli/data/blob/main/packages/template-lib/README.md).
-- See the code at [packages/template-lib](https://github.com/salesforcecli/data/blob/main/packages/template-lib).
-
 ## Issues
 
 Please report any issues here: https://github.com/forcedotcom/cli/issues

@@ -1,4 +1,5 @@
-# Description
+# !!DEPRECATED!!
+## Please checkout the [plugin-template](https://github.com/salesforcecli/plugin-template) instead
 
 # Packages
 
